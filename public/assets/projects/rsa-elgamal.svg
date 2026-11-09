@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#070a12"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5e6be"/><stop offset="1" stop-color="#c5a059"/></linearGradient>
+<pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#d4af37" stroke-opacity=".08"/></pattern>
+</defs><rect width="1200" height="750" fill="url(#bg)"/><rect width="1200" height="750" fill="url(#grid)"/>
+<rect x="24" y="24" width="1152" height="702" fill="none" stroke="#d4af37" stroke-opacity=".35"/><text x="90" y="110" fill="#d4af37" font-family="'Courier New', monospace" font-size="20" letter-spacing="4">PUBLIC-KEY CRYPTOGRAPHY</text>
+<text x="90" y="170" fill="url(#gold)" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700">RSA &amp; ElGamal</text>
+<g font-family="Georgia, 'Times New Roman', serif" fill="#f5e6be" font-size="36" font-style="italic">
+<text x="90" y="290">RSA</text><text x="90" y="520">ElGamal</text></g>
+<g font-family="'Courier New', monospace" font-size="26" fill="#c9c2ad">
+<text x="90" y="340">n = p · q ,  φ(n) = (p−1)(q−1)</text>
+<text x="90" y="385">c = m^e mod n</text>
+<text x="90" y="430">m = c^d mod n</text>
+<text x="90" y="570">c₁ = g^k mod p</text>
+<text x="90" y="615">c₂ = m · y^k mod p</text></g>
+<g transform="translate(690,170)" stroke="url(#gold)" stroke-width="12" fill="none" stroke-linecap="round">
+<circle cx="110" cy="110" r="78"/><circle cx="110" cy="110" r="26"/><path d="M168 168 L360 360"/><path d="M290 290 L330 250"/><path d="M325 325 L365 285"/></g>
+<text x="90" y="690" fill="#38bdf8" font-family="'Courier New', monospace" font-size="18">key generation · encryption · decryption</text></svg>

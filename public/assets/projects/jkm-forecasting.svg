@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#070a12"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5e6be"/><stop offset="1" stop-color="#c5a059"/></linearGradient>
+<pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#d4af37" stroke-opacity=".08"/></pattern>
+</defs><rect width="1200" height="750" fill="url(#bg)"/><rect width="1200" height="750" fill="url(#grid)"/>
+<rect x="24" y="24" width="1152" height="702" fill="none" stroke="#d4af37" stroke-opacity=".35"/><text x="90" y="110" fill="#d4af37" font-family="'Courier New', monospace" font-size="20" letter-spacing="4">SARIMA · TIME-SERIES FORECASTING</text>
+<text x="90" y="170" fill="url(#gold)" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700">JKM Claims Forecast</text>
+<line x1="90" y1="520" x2="880" y2="520" stroke="#d4af37" stroke-opacity=".4"/><line x1="90" y1="250" x2="90" y2="520" stroke="#d4af37" stroke-opacity=".4"/>
+<rect x="610.0" y="230" width="270.0" height="290" fill="#38bdf8" fill-opacity=".06"/>
+<path d="M610.0,452.1 L623.0,430.2 L636.0,357.4 L649.0,285.9 L662.0,267.1 L675.0,312.6 L688.0,385.5 L701.0,428.3 L714.0,406.2 L727.0,333.3 L740.0,262.0 L753.0,243.4 L766.0,289.1 L779.0,362.0 L792.0,404.6 L805.0,382.2 L818.0,309.2 L831.0,238.0 L844.0,219.7 L857.0,265.6 L870.0,338.4 L870.0,458.4 L857.0,381.2 L844.0,330.9 L831.0,344.8 L818.0,411.6 L805.0,480.2 L792.0,498.2 L779.0,451.2 L766.0,373.9 L753.0,323.8 L740.0,338.0 L727.0,404.9 L714.0,473.4 L701.0,491.1 L688.0,443.9 L675.0,366.6 L662.0,316.7 L649.0,331.1 L636.0,398.2 L623.0,466.6 L610.0,484.1Z" fill="#38bdf8" fill-opacity=".18"/>
+<path d="M90.0,430.0 L103.0,360.0 L116.0,341.8 L129.0,388.3 L142.0,463.5 L155.0,509.8 L168.0,491.4 L181.0,421.3 L194.0,351.4 L207.0,333.5 L220.0,380.2 L233.0,455.4 L246.0,501.5 L259.0,482.8 L272.0,412.6 L285.0,342.8 L298.0,325.2 L311.0,372.1 L324.0,447.3 L337.0,493.2 L350.0,474.2 L363.0,403.9 L376.0,334.2 L389.0,316.9 L402.0,364.0 L415.0,439.1 L428.0,484.8 L441.0,465.6 L454.0,395.2 L467.0,325.7 L480.0,308.5 L493.0,355.8 L506.0,431.0 L519.0,476.5 L532.0,457.0 L545.0,386.5 L558.0,317.1 L571.0,300.2 L584.0,347.7 L597.0,422.9 L610.0,468.1" fill="none" stroke="#f5e6be" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M610.0,468.1 L623.0,448.4 L636.0,377.8 L649.0,308.5 L662.0,291.9 L675.0,339.6 L688.0,414.7 L701.0,459.7 L714.0,439.8 L727.0,369.1 L740.0,300.0 L753.0,283.6 L766.0,331.5 L779.0,406.6 L792.0,451.4 L805.0,431.2 L818.0,360.4 L831.0,291.4 L844.0,275.3 L857.0,323.4 L870.0,398.4" fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-dasharray="10 8" stroke-linejoin="round"/>
+<line x1="610.0" y1="230" x2="610.0" y2="520" stroke="#d4af37" stroke-dasharray="4 6"/>
+<text x="620.0" y="256" fill="#38bdf8" font-family="'Courier New', monospace" font-size="18">30-day projection</text>
+<text x="100" y="548" fill="#8a95a5" font-family="'Courier New', monospace" font-size="16">Daily claims · trend + weekly seasonality</text>
+<g transform="translate(930,300)" fill="none" stroke="#d4af37" stroke-opacity=".8">
+<rect x="0" y="0" width="190" height="52" rx="8"/><rect x="0" y="72" width="190" height="52" rx="8"/><rect x="0" y="144" width="190" height="52" rx="8"/></g>
+<g font-family="'Courier New', monospace" font-size="17" fill="#f5e6be"><text x="950" y="332">ADF test</text><text x="950" y="404">Grid search</text><text x="950" y="476">AIC / BIC</text></g>
+<text x="90" y="650" fill="#d4af37" fill-opacity=".6" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic">SARIMA (p, d, q)(P, D, Q)s</text></svg>
